@@ -14,8 +14,7 @@ def hello():
 
 
 if __name__ == '__main__':
-    app.run()
-    
+    app.run() 
 ```
 
 ### Response with Status Code
@@ -36,8 +35,7 @@ def not_found():
 
 
 if __name__ == '__main__':
-    app.run()
-    
+    app.run()    
 ```
 
 ### Getting URL Param
@@ -56,13 +54,10 @@ def parameters():
         return jsonify(message="Sorry "+name+", you are not old enough"), 401
     else:
         return jsonify(message="Welcome "+name+", you are old enough"), 401
-    
-
 
 
 if __name__ == '__main__':
-    app.run()
-    
+    app.run() 
 ```
 
 
@@ -82,6 +77,5 @@ def url_variables(name:str, age: int):
     
 
 if __name__ == '__main__':
-    app.run()
-    
+    app.run()   
 ```
