@@ -28,7 +28,7 @@ app = Flask()
 
 @app.route('/')
 def hello():
-    return jsonify(message="Hello, Muni!")
+    return jsonify(message="Hello, Muni!"), 200
     
 @app.route('/not_found')
 def not_found():
