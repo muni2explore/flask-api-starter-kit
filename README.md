@@ -5,6 +5,7 @@
 - [https://flask.palletsprojects.com/en/1.1.x/becomingbig/#becomingbig](https://flask.palletsprojects.com/en/1.1.x/becomingbig/#becomingbig)
 - [https://flask.palletsprojects.com/en/1.1.x/blueprints/](https://flask.palletsprojects.com/en/1.1.x/blueprints/)
 - [Beginning with a Flask project. 5 most important things to know before starting.](https://itnext.io/beginning-with-flask-project-the-5-most-important-information-to-know-before-starting-f075e0fb0aec)
+- [5 most important informations to know before start working with Flask - Youtube](https://www.youtube.com/playlist?list=PLz3OOILu_dPk1LfYv1YEBW_fid728Pcfm)
 
 
 
