@@ -93,6 +93,8 @@ app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+ os.path.join(basedir, 'planets.db') 
 
+db = SQLAlchemy(app)
+
 @app.route('/url_variables/<string:name>/<int:age>')
 def url_variables(name:str, age: int):
     if age < 18:
